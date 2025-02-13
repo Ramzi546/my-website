@@ -1,0 +1,17 @@
+@import url("../libs/bootstrap-grid.min.css");
+@import url("../fonst/iuhg/RobotoCondensed-Light.ttf");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './header.scss';
+@import './ladesign.scss';
+@import './about.scss';
+@import './portfolio.scss';
+@import './menu.scss';
+

@@ -1,0 +1,39 @@
+.ladesign {
+  background: url("../img/ladesign/pin.png") center/cover, url("../img/ladesign/bg.png") center/cover no-repeat;
+  padding: 190px 0 300px;
+}
+.ladesign__text {
+  margin-top: 150px;
+  margin-left: 110px;
+}
+.ladesign__title {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 140px;
+  line-height: 164px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.ladesign__subtitle {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  /* or 135% */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 240px;
+}

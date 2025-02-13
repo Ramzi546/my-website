@@ -1,0 +1,66 @@
+.portfolio{
+    
+
+    &__title{
+font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+margin-top:150px;
+margin-left:410px;
+margin-bottom: 65px;
+
+
+/* main/main */
+
+color: #3D3D3D;
+
+
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        margin:0 auto;
+        margin-left:100px;
+        }
+        &__link{
+            font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+text-decoration: none;
+
+
+
+
+/* text */
+
+color: #878787;
+margin-left: 69px;
+&:hover{
+    color: black;
+}
+        }
+        &__border{
+            border: 1px solid #3D3D3D;
+            width: 800px;
+            display: flex;
+            align-items: center;
+            margin-left: 130px;
+        
+        }
+        
+}
+

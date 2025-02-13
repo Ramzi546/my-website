@@ -1,0 +1,46 @@
+.ladesign{
+    background: url('../img/ladesign/pin.png') center/cover,
+    url('../img/ladesign/bg.png')center/cover no-repeat;
+    padding: 190px 0  300px ;
+    &__text{
+        margin-top: 150px;
+        margin-left:110px;
+    }
+    &__title{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 140px;
+    line-height: 164px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+        }
+        
+        &__subtitle{
+            font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    /* or 135% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+   margin-left:240px;
+        }
+    
+    }
+    
+    
+    

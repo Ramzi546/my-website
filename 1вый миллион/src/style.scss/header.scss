@@ -1,0 +1,61 @@
+.header{
+    width: 100%;
+position: absolute;
+padding: 20px 0;
+border: 0.5px solid #878787;
+
+    
+    &__nav{
+    display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+    &__menu{
+    display: flex;
+    align-items: center;
+    }
+
+    &__img{
+        margin-left:30px;
+}
+    &__link{
+        font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+text-decoration: none;
+margin-right: 50px;
+position: relative;
+&:hover{
+    color:#777777 ;
+}
+    }  
+
+&__text{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color:#FFFFFF
+}
+&__imag{
+     margin-right:10px;
+   
+}
+}
